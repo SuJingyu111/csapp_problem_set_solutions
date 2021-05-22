@@ -32,4 +32,5 @@ void combineBytes(int x, int y) {
     for (size_t i = 0; i < intSize; i++) {
         printf(" %.2x", genWord[i]);
     }
+    free(genWord);
 }
