@@ -6,7 +6,7 @@ void show_int(int x);
 void show_float(float x);
 void show_pointer(void *x);
 
-int main(void){
+int main(){
     int x = 1;
     float xf = 1.0;
     double xd = 1.00;
